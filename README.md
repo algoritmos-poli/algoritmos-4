@@ -1,7 +1,15 @@
-# algoritmos-4
+# Algoritmos y Programacion 4
+
+
+## Herramienta de visualizacion
+
+https://cscircles.cemc.uwaterloo.ca/java_visualize/
+
 
 
 ## Links de utilidad
+
+
 * https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1228/
 * https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1126/
 * https://ranger.uta.edu/~alex/courses/3318/
@@ -22,4 +30,5 @@
 ## Repos y otros
 * https://github.com/katychuang/cisc3130
 * https://www.datacamp.com/tutorial/data-structures-guide-python
-* 
+* https://imaster.academy/contenidos-tematicos/
+

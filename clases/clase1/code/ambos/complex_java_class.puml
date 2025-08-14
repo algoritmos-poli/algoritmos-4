@@ -1,0 +1,28 @@
+@startuml
+package "Complex.java" {
+  class Complex {
+    - re: double
+    - im: double
+    --
+    + Complex(re: double, im: double)
+    + Complex()
+    + re(): double
+    + im(): double
+    + conjugate(): Complex
+    + add(other: Complex): Complex
+    + multiply(other: Complex): Complex
+    + equals(obj: Object): boolean
+    + abs(): double
+    + toString(): String
+    {static} + main(args: String[]): void
+  }
+
+  note right of Complex
+    Notas:
+    - Sin setters; uso funcionalmente inmutable.
+    - Operaciones: add, multiply, conjugate.
+    - equals(Object) y toString() sobreescritos.
+    - abs(): módulo del número complejo.
+  end note
+}
+@enduml
